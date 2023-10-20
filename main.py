@@ -1,16 +1,16 @@
-a = int(input("Напишете първото число: "))
-b = int(input("Напишете второто число: "))
-operator = str(input("Изберте оператор: "))
+import math
+#lice na kvadrat
+a = int(input())
+ha = int(input())
+c = a * ha / 2
+print(c)
 
-if operator == "+":
-    c = a + b
-    print(c)
-elif operator == "-":
-    c = a - b
-    print(c)
-elif operator == "*":
-    c = a * b
-    print(c)
-else:
-    c = a / b
-    print(int(c))
+#lice na krug
+r = int(input())
+s = math.pi * r**2
+print(s)
+
+#lice na kvadrat
+f = int(input())
+b = f * f
+print (b)
